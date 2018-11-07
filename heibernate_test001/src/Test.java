@@ -7,7 +7,7 @@ public class Test {
 		fail("Not yet implemented");
 		fail("Not yet implemented");
 
-		
+		Ë¯É¶Ë¯£»
 
 	}
 
