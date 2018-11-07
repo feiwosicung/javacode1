@@ -6,6 +6,7 @@ public class Test {
 	public void test() {
 		fail("Not yet implemented");
 		eee;
+eeee;
 	}
 
 }
