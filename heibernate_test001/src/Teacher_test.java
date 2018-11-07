@@ -13,18 +13,19 @@ public class Teacher_test {
 		s.setId(6);
 		s.setTitle("WU");
 		s.setName("lihua");
-		//´´½¨ SessionFactory
+		//Â´Â´Â½Â¨ SessionFactory
 		Configuration cfg=new Configuration().configure();
 		
 		ServiceRegistryBuilder builder=new ServiceRegistryBuilder().applySettings(cfg.getProperties());
 		SessionFactory sf = cfg.buildSessionFactory(builder.buildServiceRegistry());
-		//´´½¨session
+		//Â´Â´Â½Â¨session
 		Session session=sf.openSession();
 		session.beginTransaction();
 		session.save(s);
 		session.getTransaction().commit();
 		session.close();
 		sf.close();
+		//wwwww
 	}
 
 }
